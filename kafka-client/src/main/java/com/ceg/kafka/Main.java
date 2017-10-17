@@ -19,7 +19,7 @@ public class Main {
                 Publisher.main(args);
                 break;
             case "consumer":
-                //Consumer.main(args);
+                Consumer.main(args);
                 break;
             default:
                 throw new IllegalArgumentException("Don't know how to do " + args[0]);
